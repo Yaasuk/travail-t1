@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Roboto:wght@100&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(228, 228, 228);
+}
+
+/* Style the side navigation */
+.sidenav {
+  font-family: 'Noto Sans JP', sans-serif;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: orange;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: orange;
+  color: black;
+  padding-left: 30;
+  
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+/* sous menu */
+.menu-list {
+    display: block;
+}
+
+.submenu-1 {
+    display: none;
+}
+
+.menu-list:hover .submenu-1{
+    display: block;
+    padding-left: 30;
+}
+
+img {vertical-align: -10px;
+margin: 10;}
+
+#link {color: orange;
+text-decoration: underline;}
+
+footer {
+  font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    color: orange;
+}
